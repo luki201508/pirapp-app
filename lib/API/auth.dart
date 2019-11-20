@@ -5,7 +5,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 final storage = new FlutterSecureStorage();
 
-const String url = 'http://134.209.86.86/api';
+const String url = 'http://pirapp.tech/api';
 Future<dynamic> signIn(String email, String password) async {
   print('Login');
   var res = await http.post(
